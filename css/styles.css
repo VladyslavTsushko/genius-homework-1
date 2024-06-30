@@ -1,0 +1,192 @@
+/* play-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2"),
+    url("../fonts/play-v19-latin-regular.woff") format("woff");
+}
+/* play-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2"),
+    url("../fonts/play-v19-latin-700.woff") format("woff");
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-500.woff") format("woff");
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-700.woff") format("woff");
+}
+
+:root {
+  --color-brand-light: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-primary-light: #ffffff;
+}
+
+/*base*/
+body {
+  color: var(--color-primary-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+address {
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+}
+/*Button*/
+.button-main {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  font-family: "roboto", serif;
+  font-weight: 500;
+  border: 2px solid var(--color-brand-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button-main:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+/*Link*/
+.header-link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+/*Hero section*/
+.direction {
+  color: var(--color-primary-dark);
+}
+
+.hero-title {
+  color: var(--color-brand-light);
+  font-family: "Play";
+  font-weight: 700;
+  line-height: 0.81;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 128px;
+}
+
+.consultation {
+  color: #4a4a4a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.section-title {
+  color: var(--color-primary-dark);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.section-title span {
+  color: var(--color-brand-light);
+  text-transform: lowercase;
+}
+
+.section-title .brand {
+  color: var(--color-brand-light);
+  text-transform: capitalize;
+}
+
+/*information section*/
+.information-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.72;
+}
+.information-title span {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/*why-us-section*/
+.icon {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/*procedure-section*/
+.mask {
+  color: var(--color-primary-light);
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+/*contact-section*/
+.paint {
+  background-color: #011c44;
+}
+
+.footer-link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  width: 1440px;
+  height: 278px;
+}
+
+.footer-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+.address-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+.address-copyright {
+  font-family: "Roboto";
+  color: #747272;
+}
